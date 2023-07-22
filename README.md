@@ -3,13 +3,13 @@
 SubScript.io is a decentralized application (DApp) built on the 
 Ethereum blockchain that enables users to create and manage 
 subscription-based services using ERC1155 non-fungible tokens (NFTs). This 
-repository contains the source code, documentation, deployment and testing scripts
+repository contains the source code, documentation, deployment, and testing scripts
 for the SubScript.io smart contracts.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Blockchains] (#blockchains)
+- [Blockchains](#blockchains)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -25,14 +25,14 @@ To ensure the integrity and reliability of the system, the project relies on sma
 
 ## Blockchains
 
-The smart contracts have been deployed to various blockchains. This is the up-to-date list of all supported chains, together with the links to the contract page on block explorers (all the contracts are verified):\
-  -Ethereum Sepolia testnet: [block explorer contract url](https://sepolia.etherscan.io/address/0x0abec91137108c54bdfa2b909e0ec529ecd99429)\
-  -Linea goerli testnet: [block explorer contract url](https://goerli.lineascan.build/address/0x4b17e43e1ab6b6d2f6fb4978bb2ea0b9285b9603)\
-  -Polygon zkEVM: [block explorer contract url](https://testnet-zkevm.polygonscan.com/address/0x29970f81d73d418e8a4c137c7de917aa51c50838)\
-  -Neon EVM devnet: [block explorer contract url](https://devnet.neonscan.org/address/0x4b17E43E1Ab6b6D2F6FB4978BB2ea0b9285b9603)\
-  -Gnosis chiado testnet: [block explorer contract url](https://gnosis-chiado.blockscout.com/address/0x29970f81D73D418E8A4C137c7DE917aa51C50838)\
-  -Celo Alfajores testnet: [block explorer contract url](https://alfajores.celoscan.io/address/0x29970f81d73d418e8a4c137c7de917aa51c50838)\
+The smart contracts have been deployed to various blockchains. This is the up-to-date list of all supported chains, together with the links to the contract page on block explorers (all the contracts are verified):
 
+- Ethereum Sepolia testnet: [block explorer contract url](https://sepolia.etherscan.io/address/0x0abec91137108c54bdfa2b909e0ec529ecd99429)
+- Linea goerli testnet: [block explorer contract url](https://goerli.lineascan.build/address/0x4b17e43e1ab6b6d2f6fb4978bb2ea0b9285b9603)
+- Polygon zkEVM: [block explorer contract url](https://testnet-zkevm.polygonscan.com/address/0x29970f81d73d418e8a4c137c7de917aa51c50838)
+- Neon EVM devnet: [block explorer contract url](https://devnet.neonscan.org/address/0x4b17E43E1Ab6b6D2F6FB4978BB2ea0b9285b9603)
+- Gnosis chiado testnet: [block explorer contract url](https://gnosis-chiado.blockscout.com/address/0x29970f81D73D418E8A4C137c7DE917aa51C50838)
+- Celo Alfajores testnet: [block explorer contract url](https://alfajores.celoscan.io/address/0x29970f81d73d418e8a4c137c7de917aa51c50838)
 
 ## Features
 
@@ -42,12 +42,12 @@ subscription plan is represented by a unique NFT.
 - **Subscription Purchasing**: Users can browse and purchase subscription 
 plans. The ownership of the NFT represents the ownership of the 
 subscription.
-- **Subscription Transfering**: Subscribers can transfer their subscriptions to other users
+- **Subscription Transferring**: Subscribers can transfer their subscriptions to other users.
 - **Subscription Management**: Users can view and manage their active 
 subscriptions, including the ability to cancel or renew them.
 - **Integration with ERC-1155**: The NFTs used in SubScript.io conform 
 to the ERC-1155 standard, ensuring compatibility with various wallets and NFT ecosystems.
-- **ETH payments**: All the subscription prices are paid in the native blockchain cryptocurrencies, avoiding the hassle of having to buy non-native tokens 
+- **ETH Payments**: All the subscription prices are paid in the native blockchain cryptocurrencies, avoiding the hassle of having to buy non-native tokens.
 
 ## Installation
 
@@ -94,7 +94,7 @@ hardhat.config.js):
 
 ## Usage
 
-Once the smart contracts are deployed to some network, you can 
+Being the contracts deployed on various networks, you can 
 proceed to integrate it into your own application to provide 
 subscription-based services. An example Near BOS decentralized front-end has been
 developed by our company and is available at the following [repository](https://github.com/knwtechs/subscript.io-bos.git)
