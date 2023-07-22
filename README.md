@@ -9,10 +9,10 @@ for the SubScript.io smart contracts.
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Blockchains] (#blockchains)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -25,13 +25,13 @@ To ensure the integrity and reliability of the system, the project relies on sma
 
 ## Blockchains
 
-The smart contracts have been deployed to various blockchains. This is the up-to-date list of all supported chains, together with the links to the contract page on block explorers (all the contracts are verified):
-  -Ethereum Sepolia testnet: [block explorer contract url](https://sepolia.etherscan.io/address/0x0abec91137108c54bdfa2b909e0ec529ecd99429)
-  -Linea goerli testnet: [block explorer contract url](https://goerli.lineascan.build/address/0x4b17e43e1ab6b6d2f6fb4978bb2ea0b9285b9603)
-  -Polygon zkEVM: [block explorer contract url](https://testnet-zkevm.polygonscan.com/address/0x29970f81d73d418e8a4c137c7de917aa51c50838)
-  -Neon EVM devnet: [block explorer contract url](https://devnet.neonscan.org/address/0x4b17E43E1Ab6b6D2F6FB4978BB2ea0b9285b9603)
-  -Gnosis chiado testnet: [block explorer contract url](https://gnosis-chiado.blockscout.com/address/0x29970f81D73D418E8A4C137c7DE917aa51C50838)
-  -Celo Alfajores testnet: [block explorer contract url](https://alfajores.celoscan.io/address/0x29970f81d73d418e8a4c137c7de917aa51c50838)
+The smart contracts have been deployed to various blockchains. This is the up-to-date list of all supported chains, together with the links to the contract page on block explorers (all the contracts are verified):\
+  -Ethereum Sepolia testnet: [block explorer contract url](https://sepolia.etherscan.io/address/0x0abec91137108c54bdfa2b909e0ec529ecd99429)\
+  -Linea goerli testnet: [block explorer contract url](https://goerli.lineascan.build/address/0x4b17e43e1ab6b6d2f6fb4978bb2ea0b9285b9603)\
+  -Polygon zkEVM: [block explorer contract url](https://testnet-zkevm.polygonscan.com/address/0x29970f81d73d418e8a4c137c7de917aa51c50838)\
+  -Neon EVM devnet: [block explorer contract url](https://devnet.neonscan.org/address/0x4b17E43E1Ab6b6D2F6FB4978BB2ea0b9285b9603)\
+  -Gnosis chiado testnet: [block explorer contract url](https://gnosis-chiado.blockscout.com/address/0x29970f81D73D418E8A4C137c7DE917aa51C50838)\
+  -Celo Alfajores testnet: [block explorer contract url](https://alfajores.celoscan.io/address/0x29970f81d73d418e8a4c137c7de917aa51c50838)\
 
 
 ## Features
