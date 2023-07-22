@@ -34,12 +34,12 @@ subscription.
 - **Subscription Transfering**: Subscribers can transfer their subscriptions to other users
 - **Subscription Management**: Users can view and manage their active 
 subscriptions, including the ability to cancel or renew them.
-- **Integration with ERC-1155**: The NFTs used in NFTSubscriptions conform 
+- **Integration with ERC-1155**: The NFTs used in SubScript.io conform 
 to the ERC-1155 standard, ensuring compatibility with various wallets.
 
 ## Installation
 
-To set up the NFTSubscriptions DApp locally, follow these steps:
+To set up the SubScript.io DApp locally, follow these steps:
 
 1. Clone this repository:
 
@@ -50,7 +50,7 @@ To set up the NFTSubscriptions DApp locally, follow these steps:
 2. Navigate to the project directory:
 
    ```bash
-   cd NFTSubscriptions
+   cd subscript.io-contracts
    ```
 
 3. Install the required dependencies:
@@ -90,6 +90,6 @@ developed by our company and is available at the following [repository](https://
 
 ## License
 
-NFTSubscriptions is released under the [MIT License](LICENSE). You are 
+SubScript.io is released under the [MIT License](LICENSE). You are 
 free to use, modify, and distribute this software. Refer to the 
 [LICENSE](LICENSE) file for more information.
