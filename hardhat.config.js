@@ -7,7 +7,7 @@ module.exports = {
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {},
-    linea: {
+    linea_goerli: {
       url: `https://linea-goerli.infura.io/v3/${process.env.LINEA_API_KEY}`,
       accounts: [process.env.LINEA_PRIVATE_KEY],
     },

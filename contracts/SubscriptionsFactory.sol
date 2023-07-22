@@ -29,6 +29,8 @@ contract SubscriptionsFactory {
      */
     event CollectionDeleted(address indexed collectionAddress);
 
+    event NewSubscription(address indexed collectionAddress, address indexed subscriber, uint256 indexed tier);
+
     //all deployed subscription collections, grouped by merchant
     mapping(address => address[]) public collections;
 
@@ -79,5 +81,16 @@ contract SubscriptionsFactory {
                 }
             }
         }
+    }
+
+    /**
+     * Starts a subscription in the specified tier
+     * @param collectionAddress: subscriptions collection 
+     * @param subscriber: receiver of the subscription
+     * @param tier: subscription tier
+     */
+    function subscribe(address collectionAddress, address subscriber, uint256 tier) external payable {
+        SubscriptionsCollection(collectionAddress).mint{value:msg.value}(subscriber, tier);
+        emit NewSubscription(collectionAddress, subscriber, tier);
     }
 }
