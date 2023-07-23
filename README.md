@@ -33,6 +33,7 @@ The smart contracts have been deployed to various blockchains. This is the up-to
 - Neon EVM devnet: [block explorer contract url](https://devnet.neonscan.org/address/0x4b17E43E1Ab6b6D2F6FB4978BB2ea0b9285b9603)
 - Gnosis chiado testnet: [block explorer contract url](https://gnosis-chiado.blockscout.com/address/0x29970f81D73D418E8A4C137c7DE917aa51C50838)
 - Celo Alfajores testnet: [block explorer contract url](https://alfajores.celoscan.io/address/0x29970f81d73d418e8a4c137c7de917aa51c50838)
+- Mantle testnet: [block explorer contract url](https://explorer.testnet.mantle.xyz/address/0xe3BBC3055DB96ecCDb1143B2DbfB8154fC4B211E)
 
 ## Features
 

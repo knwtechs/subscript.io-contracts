@@ -33,7 +33,7 @@ async function main() {
   console.log("Deploying contracts with the account:", deployer.address);
   
   const contract = await ethers.deployContract("SubscriptionsFactory");
-  console.log(contract)
+  //console.log(contract)
 
   console.log("Contract address:", await contract.address);
 }

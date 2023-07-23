@@ -39,6 +39,10 @@ module.exports = {
       url: `https://rpc.public.zkevm-test.net`,
       accounts: [process.env.ZKEVM_PRIVATE_KEY],
     },
+    mantle_testnet: {
+      url: "https://rpc.testnet.mantle.xyz/",
+      accounts: [process.env.MANTLE_PRIVATE_KEY], // Uses the private key from the .env file
+    }
     
     
   },
