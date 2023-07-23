@@ -1,10 +1,8 @@
 # SubScript.io
 
-SubScript.io is a decentralized application (DApp) built on the 
-Ethereum blockchain that enables users to create and manage 
+SubScript.io is a decentralized application (DApp) built on EVM-compatible blockchains that enables users to create and manage 
 subscription-based services using ERC1155 non-fungible tokens (NFTs). This 
-repository contains the source code, documentation, deployment, and testing scripts
-for the SubScript.io smart contracts.
+repository contains the source code, documentation, deployment, and testing scripts for the SubScript.io smart contracts.
 
 ## Table of Contents
 
